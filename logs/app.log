@@ -1,0 +1,175 @@
+2025-09-16 14:09:37,483 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:09:37,493 - appointment_app - INFO - Initialized appointment_state in session_state
+2025-09-16 14:09:37,494 - appointment_app - INFO - Initialized chat_history in session_state
+2025-09-16 14:09:37,496 - appointment_app - INFO - Set current_step to greeting
+2025-09-16 14:09:37,501 - appointment_app - INFO - Entering process_greeting_step
+2025-09-16 14:09:47,701 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:09:47,704 - appointment_app - INFO - Entering process_greeting_step
+2025-09-16 14:09:47,844 - appointment_app - INFO - Greeting form submitted
+2025-09-16 14:09:48,409 - appointment_app - INFO - Greeting processed successfully
+2025-09-16 14:09:48,423 - appointment_app - INFO - Transition: greeting -> lookup
+2025-09-16 14:09:48,559 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:09:48,565 - appointment_app - INFO - Entering process_lookup_step
+2025-09-16 14:09:48,573 - appointment_app - INFO - Lookup result patient_type=existing patient_id=51
+2025-09-16 14:09:48,579 - appointment_app - INFO - Transition: lookup -> scheduling
+2025-09-16 14:09:48,723 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:09:48,729 - appointment_app - INFO - Entering process_scheduling_step
+2025-09-16 14:09:48,962 - appointment_app - INFO - Found 21 available slots
+2025-09-16 14:09:52,114 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:09:52,120 - appointment_app - INFO - Entering process_scheduling_step
+2025-09-16 14:09:52,437 - appointment_app - INFO - Found 21 available slots
+2025-09-16 14:09:52,439 - appointment_app - INFO - Selected slot display: 2025-09-08 | 15:30 - 16:00
+2025-09-16 14:09:52,721 - appointment_app - INFO - Slot selected index=5 date=2025-09-08 start=15:30
+2025-09-16 14:09:52,722 - appointment_app - INFO - Transition: scheduling -> insurance
+2025-09-16 14:09:52,879 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:09:52,885 - appointment_app - INFO - Transition: insurance -> confirmation
+2025-09-16 14:09:53,045 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:09:53,050 - appointment_app - INFO - Entering process_confirmation_step
+2025-09-16 14:09:55,138 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:09:55,142 - appointment_app - INFO - Entering process_confirmation_step
+2025-09-16 14:09:55,156 - appointment_app - INFO - Confirm Appointment clicked
+2025-09-16 14:09:55,158 - appointment_app - INFO - Appointment confirmed id=APT-20250916-7FA187AA
+2025-09-16 14:09:55,474 - appointment_app - INFO - Slot availability update result: True
+2025-09-16 14:09:56,783 - appointment_app - INFO - Calendar event creation result: success=True id=5lpssl1k19qlva1ds26vsuhhu4
+2025-09-16 14:09:56,785 - appointment_app - INFO - Transition: confirmation -> mailing
+2025-09-16 14:09:56,924 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:09:56,931 - appointment_app - INFO - Entering process_mailing_step
+2025-09-16 14:10:01,668 - appointment_app - INFO - Mailing result mail_sent=True
+2025-09-16 14:10:01,669 - appointment_app - INFO - Reminder setup result reminders_set=False
+2025-09-16 14:17:57,734 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:17:57,736 - appointment_app - INFO - Initialized appointment_state in session_state
+2025-09-16 14:17:57,737 - appointment_app - INFO - Initialized chat_history in session_state
+2025-09-16 14:17:57,739 - appointment_app - INFO - Set current_step to greeting
+2025-09-16 14:17:57,744 - appointment_app - INFO - Entering process_greeting_step
+2025-09-16 14:18:13,452 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:18:13,455 - appointment_app - INFO - Entering process_greeting_step
+2025-09-16 14:18:13,605 - appointment_app - INFO - Greeting form submitted
+2025-09-16 14:18:14,163 - appointment_app - INFO - Greeting processed successfully
+2025-09-16 14:18:14,165 - appointment_app - INFO - Transition: greeting -> lookup
+2025-09-16 14:18:14,315 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:18:14,320 - appointment_app - INFO - Entering process_lookup_step
+2025-09-16 14:18:14,328 - appointment_app - INFO - Lookup result patient_type=existing patient_id=51
+2025-09-16 14:18:14,334 - appointment_app - INFO - Transition: lookup -> scheduling
+2025-09-16 14:18:14,494 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:18:14,499 - appointment_app - INFO - Entering process_scheduling_step
+2025-09-16 14:18:14,717 - appointment_app - INFO - Found 21 available slots
+2025-09-16 14:18:16,781 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:18:16,785 - appointment_app - INFO - Entering process_scheduling_step
+2025-09-16 14:18:16,956 - appointment_app - INFO - Found 21 available slots
+2025-09-16 14:18:16,958 - appointment_app - INFO - Selected slot display: 2025-09-08 | 15:30 - 16:00
+2025-09-16 14:18:17,124 - appointment_app - INFO - Slot selected index=5 date=2025-09-08 start=15:30
+2025-09-16 14:18:17,126 - appointment_app - INFO - Transition: scheduling -> insurance
+2025-09-16 14:18:17,250 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:18:17,254 - appointment_app - INFO - Transition: insurance -> confirmation
+2025-09-16 14:18:17,379 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:18:17,382 - appointment_app - INFO - Entering process_confirmation_step
+2025-09-16 14:18:19,790 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:18:19,793 - appointment_app - INFO - Entering process_confirmation_step
+2025-09-16 14:18:19,804 - appointment_app - INFO - Confirm Appointment clicked
+2025-09-16 14:18:19,805 - appointment_app - INFO - Appointment confirmed id=APT-20250916-FDDA4BD0
+2025-09-16 14:18:20,010 - appointment_app - INFO - Slot availability update result: True
+2025-09-16 14:18:20,011 - appointment_app - INFO - Transition: confirmation -> mailing
+2025-09-16 14:18:20,137 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:18:20,140 - appointment_app - INFO - Entering process_mailing_step
+2025-09-16 14:18:26,045 - appointment_app - INFO - Mailing result mail_sent=True
+2025-09-16 14:18:26,047 - appointment_app - INFO - Reminder setup result reminders_set=False
+2025-09-16 14:18:28,522 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:18:28,526 - appointment_app - INFO - Entering process_mailing_step
+2025-09-16 14:18:32,907 - appointment_app - INFO - Mailing result mail_sent=True
+2025-09-16 14:18:32,908 - appointment_app - INFO - Reminder setup result reminders_set=False
+2025-09-16 14:18:33,693 - appointment_app - INFO - Calendar event creation result: success=False id=None
+2025-09-16 14:18:33,694 - appointment_app - ERROR - Google Calendar error: <HttpError 400 when requesting https://www.googleapis.com/calendar/v3/calendars/primary/events?alt=json returned "Bad Request". Details: "[{'domain': 'global', 'reason': 'badRequest', 'message': 'Bad Request'}]">
+2025-09-16 14:19:06,735 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:06,740 - appointment_app - INFO - Entering process_mailing_step
+2025-09-16 14:19:11,766 - appointment_app - INFO - Mailing result mail_sent=True
+2025-09-16 14:19:11,767 - appointment_app - INFO - Reminder setup result reminders_set=False
+2025-09-16 14:19:11,770 - appointment_app - INFO - Session reset to greeting
+2025-09-16 14:19:11,894 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:11,896 - appointment_app - INFO - Entering process_greeting_step
+2025-09-16 14:19:22,308 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:22,312 - appointment_app - INFO - Entering process_greeting_step
+2025-09-16 14:19:22,406 - appointment_app - INFO - Greeting form submitted
+2025-09-16 14:19:23,170 - appointment_app - INFO - Greeting processed successfully
+2025-09-16 14:19:23,171 - appointment_app - INFO - Transition: greeting -> lookup
+2025-09-16 14:19:23,292 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:23,296 - appointment_app - INFO - Entering process_lookup_step
+2025-09-16 14:19:23,300 - appointment_app - INFO - Lookup result patient_type=existing patient_id=51
+2025-09-16 14:19:23,304 - appointment_app - INFO - Transition: lookup -> scheduling
+2025-09-16 14:19:23,425 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:23,429 - appointment_app - INFO - Entering process_scheduling_step
+2025-09-16 14:19:23,589 - appointment_app - INFO - Found 21 available slots
+2025-09-16 14:19:27,690 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:27,716 - appointment_app - INFO - Entering process_scheduling_step
+2025-09-16 14:19:28,361 - appointment_app - INFO - Found 21 available slots
+2025-09-16 14:19:28,365 - appointment_app - INFO - Selected slot display: 2025-09-11 | 16:30 - 17:00
+2025-09-16 14:19:28,618 - appointment_app - INFO - Slot selected index=20 date=2025-09-11 start=16:30
+2025-09-16 14:19:28,620 - appointment_app - INFO - Transition: scheduling -> insurance
+2025-09-16 14:19:28,790 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:28,799 - appointment_app - INFO - Transition: insurance -> confirmation
+2025-09-16 14:19:28,946 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:28,950 - appointment_app - INFO - Entering process_confirmation_step
+2025-09-16 14:19:31,462 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:31,466 - appointment_app - INFO - Entering process_confirmation_step
+2025-09-16 14:19:31,480 - appointment_app - INFO - Confirm Appointment clicked
+2025-09-16 14:19:31,482 - appointment_app - INFO - Appointment confirmed id=APT-20250916-E9DB3825
+2025-09-16 14:19:31,694 - appointment_app - INFO - Slot availability update result: True
+2025-09-16 14:19:31,696 - appointment_app - INFO - Transition: confirmation -> mailing
+2025-09-16 14:19:31,825 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:31,829 - appointment_app - INFO - Entering process_mailing_step
+2025-09-16 14:19:35,995 - appointment_app - INFO - Mailing result mail_sent=True
+2025-09-16 14:19:35,996 - appointment_app - INFO - Reminder setup result reminders_set=False
+2025-09-16 14:19:45,093 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:19:45,098 - appointment_app - INFO - Entering process_mailing_step
+2025-09-16 14:19:50,427 - appointment_app - INFO - Mailing result mail_sent=True
+2025-09-16 14:19:50,429 - appointment_app - INFO - Reminder setup result reminders_set=False
+2025-09-16 14:19:51,376 - appointment_app - INFO - Calendar event creation result: success=False id=None
+2025-09-16 14:19:51,377 - appointment_app - ERROR - Google Calendar error: <HttpError 400 when requesting https://www.googleapis.com/calendar/v3/calendars/primary/events?alt=json returned "Bad Request". Details: "[{'domain': 'global', 'reason': 'badRequest', 'message': 'Bad Request'}]">
+2025-09-16 14:24:21,211 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:24:21,219 - appointment_app - INFO - Entering process_mailing_step
+2025-09-16 14:24:25,624 - appointment_app - INFO - Mailing result mail_sent=True
+2025-09-16 14:24:25,626 - appointment_app - INFO - Reminder setup result reminders_set=False
+2025-09-16 14:24:25,631 - appointment_app - INFO - Creating calendar event start=2025-09-11T16:30:00 end=2025-09-11T17:00:00 patient=Palak Bansal doctor=Dr. Smith
+2025-09-16 14:24:27,180 - appointment_app - INFO - Calendar event creation result: success=True id=2m8o25qkikdqkukdqfr3eieu9s
+2025-09-16 14:25:25,667 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:25:25,668 - appointment_app - INFO - Initialized appointment_state in session_state
+2025-09-16 14:25:25,669 - appointment_app - INFO - Initialized chat_history in session_state
+2025-09-16 14:25:25,669 - appointment_app - INFO - Set current_step to greeting
+2025-09-16 14:25:25,672 - appointment_app - INFO - Entering process_greeting_step
+2025-09-16 14:28:18,590 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:28:18,594 - appointment_app - INFO - Entering process_greeting_step
+2025-09-16 14:28:18,715 - appointment_app - INFO - Greeting form submitted
+2025-09-16 14:28:19,376 - appointment_app - INFO - Greeting processed successfully
+2025-09-16 14:28:19,378 - appointment_app - INFO - Transition: greeting -> lookup
+2025-09-16 14:28:19,526 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:28:19,531 - appointment_app - INFO - Entering process_lookup_step
+2025-09-16 14:28:19,554 - appointment_app - INFO - Lookup result patient_type=existing patient_id=51
+2025-09-16 14:28:19,560 - appointment_app - INFO - Transition: lookup -> scheduling
+2025-09-16 14:28:19,708 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:28:19,713 - appointment_app - INFO - Entering process_scheduling_step
+2025-09-16 14:28:19,934 - appointment_app - INFO - Found 21 available slots
+2025-09-16 14:28:22,182 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:28:22,187 - appointment_app - INFO - Entering process_scheduling_step
+2025-09-16 14:28:22,453 - appointment_app - INFO - Found 21 available slots
+2025-09-16 14:28:22,456 - appointment_app - INFO - Selected slot display: 2025-09-08 | 15:00 - 15:30
+2025-09-16 14:28:22,692 - appointment_app - INFO - Slot selected index=4 date=2025-09-08 start=15:00
+2025-09-16 14:28:22,693 - appointment_app - INFO - Transition: scheduling -> insurance
+2025-09-16 14:28:22,838 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:28:22,845 - appointment_app - INFO - Transition: insurance -> confirmation
+2025-09-16 14:28:22,993 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:28:22,997 - appointment_app - INFO - Entering process_confirmation_step
+2025-09-16 14:28:25,231 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:28:25,237 - appointment_app - INFO - Entering process_confirmation_step
+2025-09-16 14:28:25,249 - appointment_app - INFO - Confirm Appointment clicked
+2025-09-16 14:28:25,250 - appointment_app - INFO - Appointment confirmed id=APT-20250916-1DE7C955
+2025-09-16 14:28:25,574 - appointment_app - INFO - Slot availability update result: True
+2025-09-16 14:28:25,575 - appointment_app - INFO - Transition: confirmation -> mailing
+2025-09-16 14:28:25,735 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:28:25,742 - appointment_app - INFO - Entering process_mailing_step
+2025-09-16 14:28:30,247 - appointment_app - INFO - Mailing result mail_sent=True
+2025-09-16 14:28:30,249 - appointment_app - INFO - Reminder setup result reminders_set=False
+2025-09-16 14:28:50,526 - appointment_app - INFO - Starting Streamlit app main()
+2025-09-16 14:28:50,532 - appointment_app - INFO - Entering process_mailing_step
+2025-09-16 14:28:54,813 - appointment_app - INFO - Mailing result mail_sent=True
+2025-09-16 14:28:54,814 - appointment_app - INFO - Reminder setup result reminders_set=False
+2025-09-16 14:28:54,819 - appointment_app - INFO - Creating calendar event start=2025-09-08T15:00:00 end=2025-09-08T15:30:00 patient=Palak Bansal doctor=Dr. Smith
+2025-09-16 14:28:56,147 - appointment_app - INFO - Calendar event creation result: success=True id=kcahbo9lm0r4h6st0um4uqmcis
